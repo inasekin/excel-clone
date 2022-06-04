@@ -5,8 +5,10 @@
     "browser": true,
     "node": true
   },
+  "plugins": ["prettier"],
   "rules": {
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "prettier/prettier": "error"
   },
   "extends": ["eslint:recommended", "google"]
 }
